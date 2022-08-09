@@ -14,9 +14,14 @@ const Navbar = () => {
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl">BRAND.</h1>
-          <ul className="hidden md:flex">
-            <li>
-              <Link to="home" smooth={true} duration={500}>
+          <ul className="hidden md:flex ">
+            <li className=" hover:text-indigo-600 bg-slate-300 rounded-lg">
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                className="text-decoration: none"
+              >
                 Home
               </Link>
             </li>
